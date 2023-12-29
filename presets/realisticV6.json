@@ -1,0 +1,28 @@
+{
+  "default_model": "Realistic_Vision_V6.0_NV_B1.safetensors",
+  "default_refiner": "",
+  "default_refiner_switch": 0.5,
+  "default_loras": [
+    ["SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors", 0.25],
+    ["None", 1.0],
+    ["None", 1.0],
+    ["None", 1.0],
+    ["None", 1.0]
+  ],
+  "default_cfg_scale": 3.0,
+  "default_sample_sharpness": 2.0,
+  "default_sampler": "dpmpp_2m_sde_gpu",
+  "default_scheduler": "karras",
+  "default_performance": "Speed",
+  "default_prompt": "",
+  "default_prompt_negative": "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+  "default_styles": [],
+  "default_aspect_ratio": "896*1152",
+  "checkpoint_downloads": {
+    "Realistic_Vision_V6.0_NV_B1.safetensors": "https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE/resolve/main/Realistic_Vision_V6.0_NV_B1.safetensors"
+  },
+  "embeddings_downloads": {},
+  "lora_downloads": {
+    "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/OedoSoldier/detail-tweaker-lora/resolve/main/add_detail.safetensors"
+  }
+}
